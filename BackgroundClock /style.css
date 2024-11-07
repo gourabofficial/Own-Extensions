@@ -12,7 +12,7 @@ body {
 }
 
 #clock {
-  font-size: 10em;
+  font-size: 6em;
   text-align: center;
   padding: 20px;
   border-radius: 10px;
@@ -26,7 +26,7 @@ body {
 
 
 #date {
-  font-size: 3em; 
+  font-size: 2em; 
   margin-top: 15px; 
   padding: 10px 20px;
   border-radius: 8px;
