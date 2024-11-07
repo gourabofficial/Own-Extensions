@@ -1,0 +1,11 @@
+{
+  "name": "Current time ",
+  "version": "1.0",
+  "description": "A simple clock extension",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "fav.png"
+
+  }
+}
