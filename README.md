@@ -2,6 +2,12 @@
 
 This repository contains the source code for a Chrome extension designed to [briefly describe the purpose of the extension]. The extension aims to [describe the functionality of your extension in detail, e.g., enhance user productivity, provide quick access to specific features, etc.].
 
+
+
+## Screenshot
+
+![Background Clock Screenshot](Asstes/TimeAndDate.png)
+
 ## Features
 
 - Extensions 1 : [A simple Chrome extensions , showing the Current time and Date for every new tab ]
