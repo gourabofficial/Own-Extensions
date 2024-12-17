@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Stopwatch Timer - Home Page",
+  "version": "1.0",
+  "description": "A stopwatch timer as your new tab background.",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "permissions": [],
+  "host_permissions": [],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
+}

@@ -1,0 +1,84 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #1f2937, #111827);
+  color: white;
+  user-select: none;
+}
+
+.container {
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.title {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+#input-section {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input {
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #4b5563;
+  color: white;
+}
+
+button {
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #2563eb;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #3b82f6;
+}
+
+.time-display {
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.reset-button {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.reset-icon {
+  width: 30px;
+  height: 30px;
+  filter: invert(1);
+}

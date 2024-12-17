@@ -9,7 +9,7 @@ function updateClock() {
   
   // Determine AM or PM
   const amPm = hours >= 12 ? 'PM' : 'AM';
-
+    
   hours = hours % 12 || 12;
   hours = String(hours).padStart(2, '0'); 
 
